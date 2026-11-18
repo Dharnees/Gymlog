@@ -1,4 +1,4 @@
-GYMLOG v1.0 — PERSONAL OFFLINE WORKOUT TRACKER
+GYMLOG v1.1 — PERSONAL OFFLINE WORKOUT TRACKER
 
 WHAT'S INCLUDED
 - Mobile-first responsive workout tracker
@@ -30,3 +30,10 @@ Open the same HTTPS site in Chrome/Edge and use it there. It will have its own l
 
 DEVELOPMENT
 The source is plain HTML/CSS/JavaScript. To modify, edit index.html and update the service-worker cache name in sw.js (e.g. gymlog-v1.1) so devices fetch the new files.
+
+V1.1 UPDATE
+- Added standard 192px and 512px PNG app icons to support Android PWA installation.
+- Corrected rest-day selection: Wednesday and Sunday now show Recovery day instead of incorrectly defaulting to Monday.
+- Changed local date formatting to use the device's local calendar date.
+- Updated service-worker cache version to gymlog-v1.1.
+- Existing IndexedDB database name and schema are unchanged; the update is designed to retain locally stored workout data.
